@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+  grid-template-rows: repeat(2, 6rem);
+  grid-gap: 2px 2px;
+}
+#grid1 {
+  /* grid-column: 1/-1; */
+  background: green;
+}
+#grid2 {
+  /* grid-row: 2/3; */
+  background-color: aqua;
+}
+#grid3 {
+  /* grid-column: 2/-1; */
+  background-color: aquamarine;
+}
+#grid4 {
+  /* grid-column: 1/-1; */
+  background: red;
+}
+#grid5 {
+  background-color: brown;
+}
+#grid6 {
+  background-color: cornflowerblue;
+}
+#grid7 {
+  background-color: darkgoldenrod;
+}
+#grid8 {
+  background-color: darkgoldenrod;
+}
